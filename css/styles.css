@@ -1,376 +1,335 @@
-/*
-    DEMO STYLE
-*/
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
-
 body {
-    font-family: 'Poppins', sans-serif !important;
-    background: #fff;
+font-family: 'Poppins', sans-serif !important;
+background: #fff;
 }
-
 p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
+font-family: 'Poppins', sans-serif;
+font-size: 1.1em;
+font-weight: 300;
+line-height: 1.7em;
+color: #999;
 }
 .container {
-    min-height: 480px;
+min-height: 480px;
 }
 .imagesWidth {
-    width: 100%;
-    object-fit: contain;
+width: 100%;
+object-fit: contain;
 }
 .mrgbtm30 {
-    margin-bottom: 30px;
+margin-bottom: 30px;
 }
 .mrgbtm15 {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 .mrgleft15 {
-    margin-left: 15px;
+margin-left: 15px;
 }
 .mrgtop0 {
-    margin-top: 0;
-    margin-bottom: 0;
+margin-top: 0;
+margin-bottom: 0;
 }
 .mrgtop10 {
-    margin-top: 10px;
+margin-top: 10px;
 }
 .jobthanks {
-    font-size: 30px;
+font-size: 30px;
 }
 img.founder-ppl {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+width: 100px;
+height: 100px;
+border-radius: 100px;
 }
 ul#companies-name {
-    padding: 0;
+padding: 0;
 }
 .founders, 
 .companyList, 
 .recru-charts, 
 .recruiters,
 .jobs {
-    overflow: auto;
+overflow: auto;
 }
 .founderDiv {
-    text-align: center;
+text-align: center;
 }
 ul {
-    list-style-type: none;
-  }
-
+list-style-type: none;
+}
 .pad0 {
-    padding: 0;
+padding: 0;
 }
 a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
+color: inherit;
+text-decoration: none;
+transition: all 0.3s;
 }
-
 .recru-placement {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
 }
 .recru-number {
-    font-size: 30px;
+font-size: 30px;
 }
 .line {
-    width: 100%;
-    height: 1px;
-    border-bottom: 1px dashed #ddd;
-    margin: 20px 0;
+width: 100%;
+height: 1px;
+border-bottom: 1px dashed #ddd;
+margin: 20px 0;
 }
-
 i, span {
-    display: inline-block;
+display: inline-block;
 }
-
 /* ---------------------------------------------------
-    SIDEBAR STYLE
+SIDEBAR STYLE
 ----------------------------------------------------- */
 .wrapper {
-    display: flex;
-    align-items: stretch;
+display: flex;
+align-items: stretch;
 }
-
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    background: #3e24cc;
-    color: #fff;
-    transition: all 0.3s;
+min-width: 250px;
+max-width: 250px;
+background: #3e24cc;
+color: #fff;
+transition: all 0.3s;
 }
-
 #sidebar.active {
-    min-width: 80px;
-    max-width: 80px;
-    text-align: center;
+min-width: 80px;
+max-width: 80px;
+text-align: center;
 }
-
 #sidebar.active .sidebar-header h4 {
-    display: none;
+display: none;
 }
-
 #sidebar.active .sidebar-header strong {
-    display: block;
+display: block;
 }
-
 #sidebar ul li a {
-    text-align: left;
+text-align: left;
 }
-
 #sidebar.active ul li a {
-    padding: 20px 10px;
-    text-align: center;
-    font-size: 0.85em;
+padding: 20px 10px;
+text-align: center;
+font-size: 0.85em;
 }
-
 #sidebar.active ul li a i {
-    margin-right:  0;
-    display: block;
-    font-size: 1.8em;
-    margin-bottom: 5px;
+margin-right:  0;
+display: block;
+font-size: 1.8em;
+margin-bottom: 5px;
 }
-
 #sidebar.active ul ul a {
-    padding: 10px !important;
+padding: 10px !important;
 }
-
 #sidebar.active a[aria-expanded="false"]::before, #sidebar.active a[aria-expanded="true"]::before {
-    top: auto;
-    bottom: 5px;
-    right: 50%;
-    -webkit-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    transform: translateX(50%);
+top: auto;
+bottom: 5px;
+right: 50%;
+-webkit-transform: translateX(50%);
+-ms-transform: translateX(50%);
+transform: translateX(50%);
 }
-
 #sidebar .sidebar-header {
-    padding: 16px 20px;
-    background: #1b00ad;
+padding: 16px 20px;
+background: #1b00ad;
 }
-
 #sidebar .sidebar-header strong {
-    display: none;
-    font-size: 1.8em;
+display: none;
+font-size: 1.8em;
 }
-
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #1b00ad;
+padding: 20px 0;
+border-bottom: 1px solid #1b00ad;
 }
-
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1em;
-    display: block;
+padding: 10px;
+font-size: 1em;
+display: block;
 }
 #sidebar ul li a:hover {
-    color: #1b00ad;
-    background: #fff;
+color: #1b00ad;
+background: #fff;
 }
 #sidebar ul li a i {
-    margin-right: 10px;
+margin-right: 10px;
 }
-
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #1b00ad;
+color: #fff;
+background: #1b00ad;
 }
-
 #sidebarCollapse {
-    width: 46px;
-    height: 48px;
-    border: 1px solid #1b00ad;
-    background: #3e24cc;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
+width: 46px;
+height: 48px;
+border: 1px solid #1b00ad;
+background: #3e24cc;
+color: #fff;
+border-radius: 0 5px 5px 0;
 }
-
-
 #sidebar a[data-toggle="collapse"] {
-    position: relative;
+position: relative;
 }
-
 #sidebar a[aria-expanded="false"]::before, 
 #sidebar a[aria-expanded="true"]::before {
-    content: '\e259';
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;
+content: '\e259';
+display: block;
+position: absolute;
+right: 20px;
+font-family: 'Glyphicons Halflings';
+font-size: 0.6em;
 }
 #sidebar a[aria-expanded="true"]::before {
-    content: '\e260';
+content: '\e260';
 }
-
-
 #sidebar ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #1b00ad;
+font-size: 0.9em !important;
+padding-left: 30px !important;
+background: #1b00ad;
 }
-
 /* ---------------------------------------------------
-    CONTENT STYLE
+CONTENT STYLE
 ----------------------------------------------------- */
 #content {
-    padding: 0 ;
-    min-height: 100vh;
-    transition: all 0.3s;
-    width: 100%;
+padding: 0 ;
+min-height: 100vh;
+transition: all 0.3s;
+width: 100%;
 }
 .recru-div {
-    margin-bottom: 20px;
-    overflow: auto;
+margin-bottom: 20px;
+overflow: auto;
 }
-
 .chartsDiv, .recru-hire {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0 0 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 0 0 20px;
 }
 .chartsDiv .charts-label, .hire-label {
-    margin: 0 0 10px 0;
-    background: #ccc;
-    padding: 10px;
-
+margin: 0 0 10px 0;
+background: #ccc;
+padding: 10px;
 }
-
-
 /* landing page styles  */
 .landingpage-nav {
-    background: #3e24cc;
-    margin-bottom: 0;
-    border-radius: 0;
-    }
-    .landingpage-nav a {
-    color: #fff;
-    }
-    #recru-carousel img {
-    width: 100%;
-    height: 500px;
-    object-fit: contain;
-    }
-    .landingpage-nav .nav>li>a:focus, 
-    .landingpage-nav .nav>li>a:hover,
-    .landingpage-nav .nav .open>a, 
-    .landingpage-nav .nav .open>a:focus, 
-    .landingpage-nav .nav .open>a:hover {
-    background-color: #160377 !important;
-    }
-    .footer {
-    width: 100%;
-    background-color: #1b00ad;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: auto;
-    }
-    .footer p {
-    padding: 6px;
-    margin-bottom: 0;
-    color: #fff;
-    }
-    .recuriter-ppl {
-        width: 18%;
-        height: 40px;
-        float: left;
-    }
-    .rec-12 {
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        padding: 10px;
-    }
-    .rec-name {
-        float: left;
-        width: 80%;
-        margin-left: 2%;
-    }
-    .rec-nameTitle {
-        color: blue;
-        font-size: 11px;
-    }
-    .blue {
-        color: blue;
-    }
-    .recimgDiv {
-        overflow: auto;
-        margin-bottom: 5px;
-    }
-    .jobs .list-group-item.active, 
-    .jobs .list-group-item.active:focus, 
-    .jobs .list-group-item.active:hover {
-        background-color: #6447ff;
-    }
-    .cmpdetails {
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        padding: 10px;
-    }
+background: #3e24cc;
+margin-bottom: 0;
+border-radius: 0;
+}
+.landingpage-nav a {
+color: #fff;
+}
+#recru-carousel img {
+width: 100%;
+height: 500px;
+object-fit: contain;
+}
+.landingpage-nav .nav>li>a:focus, 
+.landingpage-nav .nav>li>a:hover,
+.landingpage-nav .nav .open>a, 
+.landingpage-nav .nav .open>a:focus, 
+.landingpage-nav .nav .open>a:hover {
+background-color: #160377 !important;
+}
+.footer {
+width: 100%;
+background-color: #1b00ad;
+text-align: center;
+position: relative;
+bottom: 0;
+left: 0;
+right: 0;
+overflow: auto;
+}
+.footer p {
+padding: 6px;
+margin-bottom: 0;
+color: #fff;
+}
+.recuriter-ppl {
+width: 18%;
+height: 40px;
+float: left;
+}
+.rec-12 {
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 10px;
+}
+.rec-name {
+float: left;
+width: 80%;
+margin-left: 2%;
+}
+.rec-nameTitle {
+color: blue;
+font-size: 11px;
+}
+.blue {
+color: blue;
+}
+.recimgDiv {
+overflow: auto;
+margin-bottom: 5px;
+}
+.jobs .list-group-item.active, 
+.jobs .list-group-item.active:focus, 
+.jobs .list-group-item.active:hover {
+background-color: #6447ff;
+}
+.cmpdetails {
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 10px;
+}
 /* ---------------------------------------------------
-    MEDIAQUERIES
+MEDIAQUERIES
 ----------------------------------------------------- */
 @media (max-width: 768px) {
-    #sidebar {
-        min-width: 80px;
-        max-width: 80px;
-        text-align: center;
-        margin-left: -80px !important ;
-    }
-    a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-        top: auto;
-        bottom: 5px;
-        right: 50%;
-        -webkit-transform: translateX(50%);
-        -ms-transform: translateX(50%);
-        transform: translateX(50%);
-    }
-    #sidebar.active {
-        margin-left: 0 !important;
-    }
-
-    #sidebar .sidebar-header h3, #sidebar .CTAs {
-        display: none;
-    }
-
-    #sidebar .sidebar-header strong {
-        display: block;
-    }
-
-    #sidebar ul li a {
-        padding: 20px 10px;
-    }
-
-    #sidebar ul li a span {
-        font-size: 0.85em;
-    }
-    #sidebar ul li a i {
-        margin-right:  0;
-        display: block;
-    }
-
-    #sidebar ul ul a {
-        padding: 10px !important;
-    }
-
-    #sidebar ul li a i {
-        font-size: 1.3em;
-    }
-    #sidebar {
-        margin-left: 0;
-    }
-    #sidebarCollapse span {
-        display: none;
-    }
+#sidebar {
+min-width: 80px;
+max-width: 80px;
+text-align: center;
+margin-left: -80px !important ;
+}
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+top: auto;
+bottom: 5px;
+right: 50%;
+-webkit-transform: translateX(50%);
+-ms-transform: translateX(50%);
+transform: translateX(50%);
+}
+#sidebar.active {
+margin-left: 0 !important;
+}
+#sidebar .sidebar-header h3, #sidebar .CTAs {
+display: none;
+}
+#sidebar .sidebar-header strong {
+display: block;
+}
+#sidebar ul li a {
+padding: 20px 10px;
+}
+#sidebar ul li a span {
+font-size: 0.85em;
+}
+#sidebar ul li a i {
+margin-right:  0;
+display: block;
+}
+#sidebar ul ul a {
+padding: 10px !important;
+}
+#sidebar ul li a i {
+font-size: 1.3em;
+}
+#sidebar {
+margin-left: 0;
+}
+#sidebarCollapse span {
+display: none;
+}
 }
