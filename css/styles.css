@@ -35,6 +35,8 @@ margin-top: 10px;
 }
 .jobthanks {
 font-size: 30px;
+padding: 20px;
+margin: 20px auto;
 }
 img.founder-ppl {
 width: 100px;
@@ -214,8 +216,8 @@ padding: 10px;
 /* landing page styles  */
 .landingpage-nav {
 background: #3e24cc;
-margin-bottom: 0;
-border-radius: 0;
+margin-bottom: 0 !important;
+border-radius: 0 !important;
 }
 .landingpage-nav a {
 color: #fff;
