@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Landing page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar landingpage-nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">ANSR Recruiters</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="recruiter.html">Recruiters</a></li>
+          <li><a href="companies.html">Companies</a></li>
+          <form class="navbar-form navbar-left" action="">
+            <div class="input-group" id="demo-2">
+              <input type="search" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li data-toggle="modal" data-target="#Register"><a href="#"><span class="glyphicon glyphicon-user"></span> Register </a></li>
+          <li data-toggle="modal" data-target="#Login"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="recru-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#recru-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#recru-carousel" data-slide-to="1"></li>
+        <li data-target="#recru-carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/img1.png" alt="Image 1">
+        </div>
+        <div class="item">
+          <img src="images/img2.jpg" alt="Image 2">
+        </div>
+        <div class="item">
+          <img src="images/img3.png" alt="Image 3">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#recru-carousel" data-slide="prev">
+      <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#recru-carousel" data-slide="next">
+      <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+      <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="text-center ourworks mrgbtm30">
+      <h1>
+        Our Works
+      </h1>
+      <p class="mrgbtm30">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <br/>Lorem Ipsum has been the industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <img src="images/works.png" alt="works" class="imagesWidth">
+    </div>
+    <div class="text-center ourservices mrgbtm30">
+      <h1>
+        Our Services
+      </h1>
+      <p class="mrgbtm30">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <br/>Lorem Ipsum has been the industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <img src="images/services.jpg" alt="works" class="imagesWidth">
+    </div>
+    <div class="text-center founders mrgbtm30">
+      <h1 class="mrgbtm30">ANSR Founders</h1>
+      <div class="col-md-3 founderDiv">
+        <img src="images/1.jpg" alt="founder1" class="founder-ppl">
+        <h4>
+            Lalit Ahuja
+        </h4>
+        <p>
+            Lorem Ipsum has been the industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+      <div class="col-md-3 founderDiv">
+        <img src="images/2.jpg" alt="founder1" class="founder-ppl">
+        <h4>
+            Rajiv D Narayana
+        </h4>
+        <p>
+            Lorem Ipsum has been the industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+      <div class="col-md-3 founderDiv">
+        <img src="images/3.jpg" alt="founder1" class="founder-ppl">
+        <h4>
+            Mike McKenzie
+        </h4>
+        <p>
+            Lorem Ipsum has been the industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+      <div class="col-md-3 founderDiv">
+        <img src="images/4.jpg" alt="founder1" class="founder-ppl">
+        <h4>
+            Tom Sisson
+        </h4>
+        <p>
+            Lorem Ipsum has been the industry, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2018 ANSR. All Rights Reserved.</p>
+    </div>
+    <!-- Login Modal -->
+    <div id="Login" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Login</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal" action="">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-10"> 
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- register modal -->
+    <div id="Register" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Register</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal" action="">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="username">Username:</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="username" placeholder="Enter username">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-10"> 
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd1">Confirm Password:</label>
+                <div class="col-sm-10"> 
+                  <input type="password" class="form-control" id="pwd1" placeholder="Enter password">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Recruiters Dashboard</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <a href="landingpage.html">
+                        <h4 class="mrgtop0">ANSR Recruiters</h4>
+                        <strong>AR</strong>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse in" aria-expanded="false">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Home
+                        </a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 2</a></li>
+                            <li><a href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                            About
+                        </a>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-duplicate"></i>
+                            Pages
+                        </a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="#">Page 1</a></li>
+                            <li><a href="#">Page 2</a></li>
+                            <li><a href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-paperclip"></i>
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-send"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Page Content Holder -->
+            <div id="content">
+                    <nav class="navbar landingpage-nav">
+                            <div class="container-fluid">
+                              <ul class="nav navbar-nav">
+                                  <li>
+                                        <button type="button" id="sidebarCollapse">
+                                                <i class="glyphicon glyphicon-align-left"></i>
+                                            </button>
+                                  </li>
+                                  <li class="active"><a href="dashboard.html">Dashboard</a></li>
+                                  <li><a href="jobs.html">Jobs</a></li>
+                                <li><a href="recruiter.html">Recruiters</a></li>
+                                <li><a href="companies.html">Companies</a></li>
+                                <form class="navbar-form navbar-left" action="">
+                                  <div class="input-group" id="demo-2">
+                                    <input type="search" class="form-control" placeholder="Search">
+                                    <div class="input-group-btn">
+                                      <button class="btn btn-default" type="submit">
+                                      <i class="glyphicon glyphicon-search"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </form>
+                              </ul>
+                              <ul class="nav navbar-nav navbar-right">
+                                <li data-toggle="modal" data-target="#Register"><a href="#"><span class="glyphicon glyphicon-user"></span> Register </a></li>
+                                <li data-toggle="modal" data-target="#Login"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                              </ul>
+                            </div>
+                          </nav>
+                <h2 class="mrgleft15">Dashboard</h2>
+                <div class="line"></div>
+                <div class="recru-div col-md-12 pad0">
+                    <div class="col-md-3">
+                        <div class="col-md-12 recru-placement">
+                                <div>All Jobs</div>
+                                <div class="recru-number">1090</div>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="col-md-12 recru-placement">
+
+                        <div>Employees</div>
+                        <div class="recru-number">900</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="col-md-12 recru-placement">
+                            <div>Open Positions</div>
+                            <div class="recru-number">900</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        <div class="col-md-12 recru-placement">
+                            <div>Expired Positions</div>
+                            <div class="recru-number">90</div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="recru-div col-md-12 pad0">
+                    <div class="col-md-3">
+                            <div class="col-md-12 recru-placement">
+                        <div>New Roles</div>
+                        <div class="recru-number">100</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="col-md-12 recru-placement">
+                        <div>Total Roles</div>
+                        <div class="recru-number">500</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="col-md-12 recru-placement">
+                            <div>Active Candidates</div>
+                            <div class="recru-number">900</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        <div class="col-md-12 recru-placement">
+                            <div>Placed Candidates</div>
+                            <div class="recru-number">1000</div>
+                            </div>
+                        </div>
+                </div>
+                <div class="recru-charts col-md-12 pad0 mrgbtm30">
+                    <div class="col-md-6">
+                        <div class="col-md-12 chartsDiv">
+                            <div class="charts-label">Job Vacancy</div>
+                            <div id="chart" class="text-center"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12 chartsDiv">
+                            <div class="charts-label">Processing</div>
+                            <div id="stackedChart" class="text-center"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 pad0 mrgbtm30">
+                    <div class="col-md-6">
+                        <div class="col-md-12 recru-hire">
+                          <div class="hire-label">Cost Per Hire Per Team</div>  
+                          <div class="col-md-12">
+                            <ul class="list-group">
+                                <li class="list-group-item">Engineers <span class="badge">$25,000</span></li>
+                                <li class="list-group-item">Marketing <span class="badge">$20,000</span></li> 
+                                <li class="list-group-item">Design <span class="badge">$30,000</span></li> 
+                                <li class="list-group-item">Customer Support <span class="badge">$40,000</span></li> 
+                              </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="col-md-12 recru-hire">
+                              <div class="hire-label">Yield Ratio Per Source </div>  
+                              <div class="col-md-12">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Referral <span class="badge">4%</span></li>
+                                    <li class="list-group-item">Career page <span class="badge">20%</span></li> 
+                                    <li class="list-group-item">Job Boards <span class="badge">1%</span></li> 
+                                    <li class="list-group-item">Agency<span class="badge">0.5%</span></li> 
+                                  </ul>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            <div class="footer">
+                <p>© 2018 ANSR. All Rights Reserved.</p>
+            </div>
+            </div>
+        </div>
+
+<!-- Login Modal -->
+<div id="Login" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Login</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal" action="">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd">Password:</label>
+                  <div class="col-sm-10"> 
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                      <label><input type="checkbox"> Remember me</label>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- register modal -->
+      <div id="Register" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Register</h4>
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal" action="">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="username">Username:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd">Password:</label>
+                  <div class="col-sm-10"> 
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd1">Confirm Password:</label>
+                  <div class="col-sm-10"> 
+                    <input type="password" class="form-control" id="pwd1" placeholder="Enter password">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- d3 js cdn -->
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <!--Local script-->
+         <script src="./script/script.js"></script>
+         <!-- d3 pie chart -->
+         <script src="./script/piechart.js"></script>
+         <!-- d3 stacked bar chart -->
+         <script src="./script/stackedchart.js"></script>
+    </body>
+</html>
